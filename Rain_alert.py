@@ -2,7 +2,7 @@ import requests
 from twilio.rest import Client
 
 end_point = "https://api.openweathermap.org/data/2.5/onecall"
-api_key = "d0334aa0e1c28113a69d196b5567ddbd"
+api_key = "api_key"
 account_sid = "AC6e4319ea1e1407400c9f41db89c5d000"
 auth_token = "a180971b9a3c27a1a9edb4a0cc8fcee1"
 client = Client(account_sid, auth_token)
